@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 50%;
+    display: block;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5%;
+
+}
+
+.button {
+    background-color:lightcoral;
+    color: white;
+    font-size: 0.7rem;
+    padding: 1%;
+    margin: 5%;
+    text-align: center;
+}
+
+.content {
+    display:block;
+}
